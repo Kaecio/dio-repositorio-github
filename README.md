@@ -1,6 +1,6 @@
 
-![Logo dio.me](https://github.com/Kaecio/dio-repositorio-github/blob/main/img/logoDio.png =200x)<br>
-![Logo dio.me](https://github.com/Kaecio/dio-repositorio-github/blob/main/img/QJD.png =150x)
+![Logo dio.me](https://github.com/Kaecio/dio-repositorio-github/blob/main/img/logoDio.png)<br>
+![Logo dio.me](https://github.com/Kaecio/dio-repositorio-github/blob/main/img/QJD.png)
  
 # Québec Java Digital
 ## dio-repositorio-github
