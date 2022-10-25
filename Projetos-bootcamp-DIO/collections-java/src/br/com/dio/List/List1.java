@@ -42,7 +42,7 @@ public class List1 {
         for (Double nota: notas) System.out.println(" Nota " + index++ + ": "+ nota);
 
 
-        System.out.println("Exiba a terfceira nota adicionada: " + notas.get(2));
+        System.out.println("Exiba a terceira nota adicionada: " + notas.get(2));
         System.out.println(notas);
         System.out.println("Exiba a menor nota é " + Collections.min(notas));
 
@@ -80,6 +80,6 @@ public class List1 {
         notas.clear();
         System.out.println(notas);
 
-        System.out.println("Confira se al ista está vazia: " + notas.isEmpty());
+        System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
     }
 }

@@ -29,7 +29,7 @@ public class OrdenacaoList {
         System.out.println("--\tOrdem aleatoria\t--");
         Collections.shuffle(meusGatos);
         System.out.println(meusGatos);
-//
+
         System.out.println("--\tOrdem natural (nome)\t--");
         Collections.sort(meusGatos);
         System.out.println(meusGatos);
