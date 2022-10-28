@@ -30,7 +30,7 @@ public class DesvendandoUmCrime {
         nome = scan.next();
         try {
             for (String pergunta: perguntas) {
-                System.out.println("Sr " + nome+", "+pergunta);
+                System.out.println("Sr " + nome+", " + pergunta);
                 resp = scan.next();
                 questionario.add(resp);
             }
@@ -47,6 +47,6 @@ public class DesvendandoUmCrime {
         }else {
             System.out.println("Inocente");
         }
-        System.out.println(Collections.frequency(questionario, "não"));
+        System.out.println("*** Caso encerrado ***");
     }
 }

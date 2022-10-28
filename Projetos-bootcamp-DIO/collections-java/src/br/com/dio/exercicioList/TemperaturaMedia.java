@@ -9,8 +9,9 @@ por extenso: 1 - Janeiro, 2 - Fevereiro e etc).
 
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
 public class TemperaturaMedia {
 
@@ -18,7 +19,7 @@ public class TemperaturaMedia {
 
         System.out.println("***** Previsão do tempo *****");
 
-        List<Mes> mes = new ArrayList<>(){{
+        List<Mes> meses = new ArrayList<>(){{
             add( new Mes("Janeiro", 15d, 30.5));
             add( new Mes("Fevereiro", 22.4, 38.2));
             add( new Mes("Março", 20d, 39.9));
@@ -27,11 +28,15 @@ public class TemperaturaMedia {
             add( new Mes("Junho", 07d, 25d));
         }};
 
-        System.out.println(mes);
        int index = 1;
-       for (Mes meses: mes){
-           System.out.println(index++ +""+ meses);
+       for (Mes mes: meses){
+           System.out.println(index++ + "" + mes);
        }
+        System.out.println("");
+        Double valorMedia1 = (meses.get(0).getTemperaturaMinima() + meses.get(0).getTemperaturaMaxima()) / 2;
+        System.out.println("Temperatura média para o mês de Janeiro: " +  valorMedia1);
+       Double valorMedia = (meses.get(1).getTemperaturaMinima() + meses.get(1).getTemperaturaMaxima()) / 2;
+        System.out.println("Temperatura média para o mês de Feveiro: " +  valorMedia);
     }
 }
 
@@ -61,8 +66,8 @@ class Mes{
     @Override
     public String toString() {
         return " - " +
-                "" + mes + '\'' +
-                ", temperaturaMinima = " + temperaturaMinima +
-                ", temperaturaMaxima = " + temperaturaMaxima;
+                "" + mes +
+                ": Temperatura mínima = " + temperaturaMinima +
+                ", Temperatura máxima = " + temperaturaMaxima;
     }
 }
