@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.dio.junit.ConsultarDadosDePessoaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-02T22:54:31" hostname="AMAC02DW52HML7L" time="0.023">
+  <properties/>
+  <testcase name="validarDadosDeRetorno()" classname="br.com.dio.junit.ConsultarDadosDePessoaTest" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[nov 02, 2022 7:54:31 PM br.com.dio.pessoa.BancoDeDados conectaBD
+INFORMAÇÕES: Conectou o banco
+nov 02, 2022 7:54:31 PM br.com.dio.pessoa.BancoDeDados insereDados
+INFORMAÇÕES: inseriu dados
+nov 02, 2022 7:54:31 PM br.com.dio.pessoa.BancoDeDados removeDados
+INFORMAÇÕES: deletou dados
+nov 02, 2022 7:54:31 PM br.com.dio.pessoa.BancoDeDados desconectaBD
+INFORMAÇÕES: Desconectou o banco
+]]></system-err>
+</testsuite>
