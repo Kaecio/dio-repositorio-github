@@ -2,7 +2,7 @@ package br.com.dio.exercicoOrientecaoObjeto;
 
 import javax.xml.validation.Validator;
 
-class Carro extends Veiculo {
+public class Carro extends Veiculo {
 
         String cor;
         String marca;
